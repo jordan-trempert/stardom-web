@@ -155,16 +155,16 @@ h1, h2 {
 
 @media (max-width: 768px) {
     .navbar {
-        flex-direction: column;
+        flex-direction: row;
         align-items: flex-start;
         padding: 1rem 1.5rem;
     }
 
     .nav-links {
-        flex-direction: column;
+        flex-direction: row;
         align-items: flex-start;
-        gap: 1rem;
-        margin-top: 1rem;
+        gap: .25rem;
+        margin-top: 0rem;
     }
 
     .nav-links li {
@@ -217,7 +217,7 @@ h1, h2 {
     }
 
     .nav-links li a {
-        font-size: 0.95rem;
+        font-size: 13px;
     }
 
     h1, h2 {
